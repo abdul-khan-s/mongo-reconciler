@@ -26,7 +26,7 @@ try:
           headers = {
               'Content-Type': 'application/json',
               'Access-Control-Request-Headers': '*',
-              'api-key': 's9eUTIHy8rLjndo0kBi41iaYSQcHdOu9bxLXwBBgWWFTPDETjtpFcnSyF3kZDxMD'
+              'api-key': 's9eUTIHy8rLjndo0kBi41iaYSQcHdOu9bxLXwBBgWWFTPDETjtpFcnSyF3kZDx'
           }
           response = requests.request("POST", url, headers=headers, data=payload)
        
